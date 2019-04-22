@@ -1,1 +1,17 @@
 /* All styles for your header Components live here */
+
+/* Header Content */
+.headercontent p{
+    color: green;
+}
+
+/* Profile Photo */
+.thumbnail{
+    width: 10px;
+}
+
+/* Username and Date*/
+
+.headertitle{
+    color: red;
+}
