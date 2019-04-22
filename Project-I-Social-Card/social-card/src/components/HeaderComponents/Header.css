@@ -11,6 +11,8 @@
 
 .headercontent p{
     color: black;
+    margin-left: 82px;
+    margin-top: -10px;
 }
 
 /* Profile Photo */
@@ -33,11 +35,11 @@
 .headertitle p{
     color: gray;
     margin-top: 30px;
-    margin-left: 40px;
+    margin-left: 25px;
 }
 
 .headertitle span{
     color: gray;
     margin-top: 30px;
-    margin-left: 40px;
+    margin-left: 25px;
 }

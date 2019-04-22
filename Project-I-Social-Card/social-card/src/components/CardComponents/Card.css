@@ -10,27 +10,25 @@
 /* Card Content */
 
 .cardcontent{
-    border: 1px solid gray;
+    border: 1px solid lavender;
+    border-radius: 10px;
     margin-top: -10px;
     padding: 10px;
-}
-
-.cardcontent p{
-    margin-left: 10px;
+    margin-left: 80px;
 }
 
 .cardcontent h1{
     color: black;
-    margin-left: 10px;
 }
 
 .cardcontent span{
     color: gray;
-    margin-left: 10px;
 }
 
 /* Card Image */
 
 .cardbanner{
-    width: 100%;
+    width: 90%;
+    margin-left: 80px;
+    border-radius: 10px;
 }
