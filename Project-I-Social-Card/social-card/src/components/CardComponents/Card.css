@@ -1,3 +1,36 @@
 /* All styles for your Card Components live here */
 
+/* Card Container */
+.card-container{
+    width: 800px;
+    margin: 0 auto;
+}
+
+
 /* Card Content */
+
+.cardcontent{
+    border: 1px solid gray;
+    margin-top: -10px;
+    padding: 10px;
+}
+
+.cardcontent p{
+    margin-left: 10px;
+}
+
+.cardcontent h1{
+    color: black;
+    margin-left: 10px;
+}
+
+.cardcontent span{
+    color: gray;
+    margin-left: 10px;
+}
+
+/* Card Image */
+
+.cardbanner{
+    width: 100%;
+}
