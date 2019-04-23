@@ -27,7 +27,7 @@ const App = () => {
 
       <ButtonContainer class='button' >
         <ActionButton text='clear'/>
-        <OperatorButtons text='/' />
+        <OperatorButtons text='÷' />
         <NumberButtons text='7' />
         <NumberButtons text='8'/>
         <NumberButtons text='9' />
