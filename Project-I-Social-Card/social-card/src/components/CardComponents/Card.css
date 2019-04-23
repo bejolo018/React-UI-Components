@@ -1,1 +1,35 @@
 /* All styles for your Card Components live here */
+/* All styles for your Card Components live here */
+
+/* Card Container */
+.card-container{
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+/* Card Content */
+
+.cardcontent{
+    border: 1px solid lavender;
+    border-radius: 10px;
+    margin-top: -13px;
+    padding: 10px;
+    margin-left: 80px;
+}
+
+.cardcontent h1{
+    color: black;
+}
+
+.cardcontent span{
+    color: gray;
+}
+
+/* Card Image */
+
+.cardbanner{
+    width: 90%;
+    margin-left: 80px;
+    border-radius: 10px;
+}
