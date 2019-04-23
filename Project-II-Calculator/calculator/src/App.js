@@ -4,7 +4,7 @@ import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay'
 import NumberButtons from './components/ButtonComponents/NumberButton';
 import ActionButton from './components/ButtonComponents/ActionButton';
 import ButtonContainer from './components/ButtonComponents/ButtonContainer';
-
+import OperatorButtons from './components/ButtonComponents/OperatorButton';
 
 
 const App = () => {
@@ -27,22 +27,27 @@ const App = () => {
 
       <ButtonContainer class='button' >
         <ActionButton text='clear'/>
-        <NumberButtons buttonName='number' text='3' />
-        <NumberButtons buttonName='number' text='2'/>
-        <NumberButtons buttonName='number' text='1' />
+        <OperatorButtons text='/' />
+        <NumberButtons text='7' />
+        <NumberButtons text='8'/>
+        <NumberButtons text='9' />
+        <OperatorButtons text='X' />
       </ButtonContainer>
 
       <ButtonContainer class='button' >
-        <NumberButtons buttonName='number' text='3' />
-        <NumberButtons buttonName='number' text='2'/>
-        <NumberButtons buttonName='number' text='1' />
+        <NumberButtons text='4' />
+        <NumberButtons text='5'/>
+        <NumberButtons text='6' />
+        <OperatorButtons text='-' />
       </ButtonContainer>
 
       <ButtonContainer class='button' >
-        <NumberButtons buttonName='number' text='3' />
-        <NumberButtons buttonName='number' text='2'/>
-        <NumberButtons buttonName='number' text='1' />
+        <NumberButtons text='3' />
+        <NumberButtons text='2'/>
+        <NumberButtons text='1' />
+        <OperatorButtons text='+' />
         <ActionButton text='0'/>
+        <OperatorButtons text='=' />
       </ButtonContainer>
     </div>
   );
