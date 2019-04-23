@@ -4,18 +4,16 @@
 }
 
 .act-btn{
-        width: 70%;
+        width: 80%;
         background-color: white;
         height: 60px;
         font-size: 30px;
 }
 
 .num-btn{
-    display: flex;
-    width: 20%;
+    width: 26.7%;
     background-color: white;
     height: 60px;
     font-size: 30px;
-    text-align: center;
     flex-wrap: wrap;
 }

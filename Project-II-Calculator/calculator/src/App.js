@@ -25,11 +25,24 @@ const App = () => {
     <div class='calculator'>
       <CalculatorDisplay />
 
-      <ButtonContainer >
+      <ButtonContainer class='button' >
         <ActionButton text='clear'/>
-        <NumberButtons text='7' />
-        <NumberButtons text='4'/>
-        <NumberButtons text='1' />
+        <NumberButtons buttonName='number' text='3' />
+        <NumberButtons buttonName='number' text='2'/>
+        <NumberButtons buttonName='number' text='1' />
+      </ButtonContainer>
+
+      <ButtonContainer class='button' >
+        <NumberButtons buttonName='number' text='3' />
+        <NumberButtons buttonName='number' text='2'/>
+        <NumberButtons buttonName='number' text='1' />
+      </ButtonContainer>
+
+      <ButtonContainer class='button' >
+        <NumberButtons buttonName='number' text='3' />
+        <NumberButtons buttonName='number' text='2'/>
+        <NumberButtons buttonName='number' text='1' />
+        <ActionButton text='0'/>
       </ButtonContainer>
     </div>
   );
