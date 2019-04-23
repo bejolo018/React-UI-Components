@@ -3,6 +3,7 @@ import './App.css';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
 import NumberButtons from './components/ButtonComponents/NumberButton';
 import ActionButton from './components/ButtonComponents/ActionButton';
+import ButtonContainer from './components/ButtonComponents/ButtonContainer';
 
 
 
@@ -23,8 +24,11 @@ const App = () => {
     //   </p>
     <div class='calculator'>
       <CalculatorDisplay />
-      <NumberButtons />
-      <ActionButton />
+
+      <ButtonContainer >
+        <ActionButton text='Clear'/>
+        <NumberButtons text='1' />
+      </ButtonContainer>
     </div>
   );
 };
