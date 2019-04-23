@@ -1,11 +1,21 @@
 .btn-container{
-    
+    width: 600px;
+    margin: 0 auto;
 }
 
-
-
+.act-btn{
+        width: 70%;
+        background-color: white;
+        height: 60px;
+        font-size: 30px;
+}
 
 .num-btn{
-    
-    
+    display: flex;
+    width: 20%;
+    background-color: white;
+    height: 60px;
+    font-size: 30px;
+    text-align: center;
+    flex-wrap: wrap;
 }

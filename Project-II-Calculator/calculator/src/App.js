@@ -26,7 +26,9 @@ const App = () => {
       <CalculatorDisplay />
 
       <ButtonContainer >
-        <ActionButton text='Clear'/>
+        <ActionButton text='clear'/>
+        <NumberButtons text='7' />
+        <NumberButtons text='4'/>
         <NumberButtons text='1' />
       </ButtonContainer>
     </div>
