@@ -1,1 +1,46 @@
 /* All styles for your header Components live here */
+/* All styles for your header Components live here */
+
+/* Header Container */
+
+.header-container{
+    width: 800px;
+    margin: 0 auto;
+}
+
+/* Header Content */
+
+.headercontent p{
+    color: black;
+    margin-left: 82px;
+    margin-top: -10px;
+}
+
+/* Profile Photo */
+
+.thumbnail{
+    width: 60px;
+    margin-top: 30px;
+    display: flex;
+}
+
+/* Username and Date*/
+
+.headertitle{
+    color: black;
+    display: flex;
+    margin-left: 80px;
+    margin-top: -90px;
+}
+
+.headertitle p{
+    color: gray;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.headertitle span{
+    color: gray;
+    margin-top: 30px;
+    margin-left: 25px;
+}

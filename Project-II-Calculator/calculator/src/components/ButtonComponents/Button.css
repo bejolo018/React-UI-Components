@@ -1,0 +1,28 @@
+.btn-container{
+    width: 303px;
+    margin: 0 auto;
+}
+
+.act-btn{
+        width: 80%;
+        background-color: white;
+        height: 60px;
+        font-size: 30px;
+}
+
+.num-btn{
+    width: 26.67%;
+    background-color: white;
+    height: 60px;
+    font-size: 30px;
+    flex-wrap: wrap;
+}
+
+.op-btn{
+    width: 19.9%;
+    background-color: red;
+    height:60px;
+    font-size: 30px;
+    color: white;
+
+}
